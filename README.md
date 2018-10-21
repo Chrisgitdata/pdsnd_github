@@ -5,7 +5,8 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+Describe what your project is about and what it does: 
+Explore Bikeshare Data with desrciptive statistics
 
 ### Files used
 Include the files used
