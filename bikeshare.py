@@ -239,25 +239,7 @@ def trip_duration_stats(df):
    
     print('\nIn the following table you can see an overview of the statistical characteristics of the column "Trip Duration": \n')
     print(df['Trip Duration'].describe())
-    
-#    # Ask if grafic should be presented
-#    input_descr = input('Do you want to see grafical results?\nYes/No: ').lower()
-#    while input_descr not in ('yes', 'no'):
-#        input_descr = input('\nSorry, ' + input_descr + ' is not a valid answer, please input "Yes" or "No".\n').lower()
-#    if input_descr == ('yes'):
-#        print('\nIn the following graph you can see an overview of the statistical characteristics of the column "Trip Duration": \n')
-#        #matplotlib
-#        travel_min = df['Trip Duration'].min()
-#        travel_median = df['Trip Duration'].median()
-#        x_a=['mean', 'min', 'median']
-#        y_a=[travel_mean, travel_min, travel_median]
-#        plt.ylabel('Trip duration in seconds')
-#        plt.title('Characteristics of "Trip Duration"')
-#        plt.bar(x_a, y_a)
-#        plt.show()
-#    else:
-#        print('')
-    
+        
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*50)
 
