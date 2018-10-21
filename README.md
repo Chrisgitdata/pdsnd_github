@@ -9,7 +9,8 @@ Describe what your project is about and what it does:
 Explore Bikeshare Data with desrciptive statistics
 
 ### Files used
-Include the files used
+Include the files used:
+Washington.csv, Newy_York_City.csv and Chicago.csv are needed for the project
 
 ### Creators
 
